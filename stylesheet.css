@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+}
+
+nav {
+    background-color: #FFFFFF;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #000;
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav a:hover {
+    border-bottom: 3px dashed cornflowerblue;
+}
+
+nav img {
+    margin: 0 10px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 300px 100px;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 2vw;
+    margin: 0;
+}
+
+section {
+    padding: 200px 30px 0;
+    text-align: center;
+}
+
+section p {
+    margin-top: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 0;
+    border: 3px dashed #A094e1;
+}
+
+#news-bits {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#news-bits:hover {
+    color: cornflowerblue;
+}
+
+#news-bits img {
+    width: 100%;
+}
+
+#timer {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#timer:hover {
+    color: cornflowerblue;
+}
+
+#timer img {
+    width: 100%;
+}
+
+#rps {
+    width: 38%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#rps:hover {
+    color: cornflowerblue;
+}
+
+#rps img {
+    width: 100%;
+}
+
+#card-game {
+    width: 38%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#card-game:hover {
+    color: cornflowerblue;
+}
+
+#card-game img {
+    width: 100%;
+}
+
+#drum-kit {
+    width: 60%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#drum-kit:hover {
+    color: cornflowerblue;
+}
+
+#drum-kit img {
+    width: 100%;
+}
+
+.project-tile {
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+    max-width: 250px;
+}
+
+.project-tile:hover {
+    color: cornflowerblue;
+}
+
+.project-tile img {
+    max-width: 100%;
+}
+
+.project-tile p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#welcome-section {
+    background-color: #FFFFFF;
+}
+
+.content {
+    max-width: 900px;
+}
+
+#projects {
+    background: #edebfc;
+}
+
+#skills {
+    background-color: #ecf3fe;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    padding: 100px 30px 0;
+}
+
+#contact {
+    padding: 500px 0 0;
+    box-sizing: border-box;
+    height: calc(100vh - 50px);
+}
+
+.bg-potpourri {
+    background-color: #f8f6ed;
+    color: #000;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 110px;
+}
+
+.social-links li {
+    padding: 20px 10px;
+}
+
+.social-links li:hover {
+    padding-bottom: 30px;
+}
+
+.social-links a {
+    border-radius: 50%;
+    border: 2px dashed cornflowerblue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2b9e0;
+    font-size: 75px;
+    height: 120px;
+    width: 120px;
+}
+
+.social-links a:hover {
+    color: rgb(135, 169, 233);
+}
+
+
+footer {
+    height: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer .fa-heart {
+    color: rgb(217, 181, 242);
+    padding: 0 10px 0;
+}
+
+@media (max-width: 740px) {
+nav a {
+    margin-left: 0;
+    }
+}
+
+@media (max-width: 440px) {
+section {
+    padding: 20px;
+    }
+}
