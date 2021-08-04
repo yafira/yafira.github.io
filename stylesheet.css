@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,6 +8,7 @@ body {
     background-color: #FFFFFF;
     font-size: 20px;
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -85,11 +86,36 @@ section p {
     border: 3px dashed #A094e1;
 }
 
+#looping-squares {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#looping-squares p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#looping-squares:hover {
+    color: cornflowerblue;
+}
+
+#looping-squares img {
+    width: 100%;
+}
+
 #news-bits {
     width: 40%;
     color: #000;
     text-decoration: none;
     margin: 40px;
+}
+
+#news-bits p {
+    margin-bottom: 0px;
+    font-weight: bold;
 }
 
 #news-bits:hover {
@@ -107,6 +133,11 @@ section p {
     margin: 40px;
 }
 
+#timer p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
 #timer:hover {
     color: cornflowerblue;
 }
@@ -122,6 +153,11 @@ section p {
     margin: 40px;
 }
 
+#rps p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
 #rps:hover {
     color: cornflowerblue;
 }
@@ -131,10 +167,15 @@ section p {
 }
 
 #card-game {
-    width: 38%;
+    width: 30%;
     color: #000;
     text-decoration: none;
     margin: 40px;
+}
+
+#card-game p {
+    margin-bottom: 0px;
+    font-weight: bold;
 }
 
 #card-game:hover {
@@ -146,10 +187,15 @@ section p {
 }
 
 #drum-kit {
-    width: 60%;
+    width: 40%;
     color: #000;
     text-decoration: none;
     margin: 40px;
+}
+
+#drum-kit p {
+    margin-bottom: 0px;
+    font-weight: bold;
 }
 
 #drum-kit:hover {
