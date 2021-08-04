@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: #FFFFFF;
+    background-color: #FFFDFA;
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 3px dashed cornflowerblue;
+    border-bottom: 7px dashed cornflowerblue;
 }
 
 nav img {
@@ -181,7 +181,7 @@ section p {
 }
 
 #welcome-section {
-    background-color: #FFFFFF;
+    background-color: #f8f6f0;
 }
 
 .content {
@@ -250,10 +250,9 @@ section p {
     color: rgb(135, 169, 233);
 }
 
-
 footer {
     height: 50px;
-    background-color: #FFFFFF;
+    background-color: #FFFDFA;
     text-align: center;
     padding-top: 10px;
 }
