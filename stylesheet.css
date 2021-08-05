@@ -50,7 +50,6 @@ header {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding: 300px 100px;
     box-sizing: border-box;
     height: 100vh;
     margin: auto;
@@ -68,12 +67,42 @@ header p {
 }
 
 section {
-    padding: 200px 30px 0;
+    padding: 400px 30px 0;
     text-align: center;
 }
 
 section p {
     margin-top: 0;
+}
+
+.intro {
+    background-color: #f8f6f0;
+}
+
+.content {
+    max-width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content div {
+    width: 50%;
+    display: block;
+}
+
+.content about {
+    margin-bottom: 200px;
+}
+
+.content img {
+    max-width: 100%;
+    margin-top: 300px;
+}
+
+#projects {
+    background: #edebfc;
 }
 
 .projects-container {
@@ -230,14 +259,6 @@ section p {
     background-color: #f8f6f0;
 }
 
-.content {
-    max-width: 900px;
-}
-
-#projects {
-    background: #edebfc;
-}
-
 #skills {
     background-color: #ecf3fe;
     display: flex;
@@ -247,7 +268,7 @@ section p {
     flex-direction: column;
     position: relative;
     height: 100vh;
-    padding: 100px 30px 0;
+    padding: 100px 40px 0;
 }
 
 #contact {
