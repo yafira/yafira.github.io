@@ -4,7 +4,7 @@ button {
     width:  100px;
     border-radius: 50px;
     border-style: dashed;
-    background-color: antiquewhite;
+    background-color: rgb(231, 252, 232);
     text-transform: uppercase;
     letter-spacing: 2.5px;
     color: #000;
@@ -21,7 +21,7 @@ button:hover {
 }
 
 #myBtn {
-    font-size: 50px;
+    font-size: 65px;
 }
 
 /* Modal (background) */
@@ -31,11 +31,10 @@ button:hover {
     z-index: 1;
     padding-top: 100px;
     left: 0;
-    top: 0;
+    top: calc(75% - 300px);
     width: 100%;
     height: 100%;
     overflow: auto;
-    margin-top: 840px;
 }
 
 /* Modal Content */

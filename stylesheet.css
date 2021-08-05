@@ -81,6 +81,7 @@ section p {
 
 #about {
     background-color: #f8f6f0;
+    text-align: left;
 }
 
 .content {
@@ -271,8 +272,22 @@ section p {
     padding: 200px 0 40px;
 }
 
-#my-skills {
+#tech {
     padding: 0 200px;
+    columns: 2 300px 3;
+}
+
+#tech b {
+    background-color: #f9e5f3;
+}
+
+#tools {
+    padding: 0 200px;
+    columns: 200px 2;
+}
+
+#tools b {
+    background-color: #f9e5f3;
 }
 
 #contact {
@@ -299,6 +314,7 @@ section p {
 
 .social-links li {
     padding: 20px 20px;
+    width: 25%;
 }
 
 .social-links li:hover {
@@ -354,8 +370,8 @@ section {
     }
 }
 
-@media (max-width: 220px) {
-#contact {
-    padding: 200px;
+@media (max-width: 740px) {
+.social-links {
+    padding: 100px 20px;
     }
 }
