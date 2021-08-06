@@ -84,7 +84,7 @@ section p {
     text-align: left;
 }
 
-.content {
+.profile {
     max-width: 100%;
     margin-top: 100px;
     padding: 50px;
@@ -92,16 +92,16 @@ section p {
     flex-direction: row-reverse;
 }
 
-.content div {
+.profile div {
     width: 50%;
     display: block;
 }
 
-.content about {
+.profile about {
     margin-bottom: 100px;
 }
 
-.content img {
+.profile img {
     max-width: 100%;
     margin-top: 300px;
 }
