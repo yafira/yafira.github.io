@@ -1,0 +1,153 @@
+#projects {
+    background: #edebfc;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 100px auto 0;
+    border: 8px dashed #A094e1;
+}
+
+#looping-squares {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#looping-squares p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#looping-squares:hover {
+    color: cornflowerblue;
+}
+
+#looping-squares img {
+    width: 100%;
+}
+
+#news-bits {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#news-bits p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#news-bits:hover {
+    color: cornflowerblue;
+}
+
+#news-bits img {
+    width: 100%;
+}
+
+#timer {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#timer p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#timer:hover {
+    color: cornflowerblue;
+}
+
+#timer img {
+    width: 100%;
+}
+
+#rps {
+    width: 38%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#rps p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#rps:hover {
+    color: cornflowerblue;
+}
+
+#rps img {
+    width: 100%;
+}
+
+#card-game {
+    width: 30%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#card-game p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#card-game:hover {
+    color: cornflowerblue;
+}
+
+#card-game img {
+    width: 100%;
+}
+
+#drum-kit {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#drum-kit p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#drum-kit:hover {
+    color: cornflowerblue;
+}
+
+#drum-kit img {
+    width: 100%;
+}
+
+.project-tile {
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+    max-width: 250px;
+}
+
+.project-tile:hover {
+    color: cornflowerblue;
+}
+
+.project-tile img {
+    max-width: 100%;
+}
+
+.project-tile p {
+    font-size: 20px;
+    margin-top: 10px;
+}

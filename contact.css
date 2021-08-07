@@ -1,0 +1,58 @@
+#contact {
+    padding: 100px 0 0;
+    box-sizing: border-box;
+    height: calc(100vh - 50px);
+}
+
+.bg-potpourri {
+    background-color: #f8f6ed;
+    color: #000;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+    padding: 200px;
+    margin: 0;
+    height: 110px;
+}
+
+.social-links li {
+    padding: 20px 20px;
+    width: 25%;
+}
+
+.social-links li:hover {
+    padding-bottom: 30px;
+}
+
+.social-links a {
+    border-radius: 50%;
+    border: 2px dashed cornflowerblue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2b9e0;
+    font-size: 75px;
+    height: 120px;
+    width: 120px;
+}
+
+.social-links a:hover {
+    color: rgb(135, 169, 233);
+}
+
+footer {
+    height: 50px;
+    background-color: #FFFDFA;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer .fa-heart {
+    color: rgb(217, 181, 242);
+    padding: 0 10px 0;
+}
