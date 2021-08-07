@@ -84,6 +84,10 @@ section p {
     text-align: left;
 }
 
+.about span {
+    background-color: #efe7fa;
+}
+
 .profile {
     max-width: 100%;
     margin-top: 100px;
@@ -279,6 +283,9 @@ section p {
 
 #tech b {
     background-color: #f9e5f3;
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
 
 #tools {
