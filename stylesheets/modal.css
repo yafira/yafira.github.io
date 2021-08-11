@@ -2,12 +2,11 @@
 button {
     height: 100px;
     width:  100px;
-    border-radius: 50px;
-    border-style: dashed;
+    display: block;
+    border: 2px dashed black;
     background-color: rgb(231, 252, 232);
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    color: #000;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -21,7 +20,7 @@ button:hover {
 }
 
 #myBtn {
-    font-size: 65px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -30,9 +29,9 @@ button:hover {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 200px;
     left: 0;
-    top: calc(50% - 200px);
+    top: calc(50% - 600px);
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -70,6 +69,7 @@ button:hover {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    background-color: transparent !important;
 }
 
 .close:hover,
