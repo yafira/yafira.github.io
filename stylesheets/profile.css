@@ -43,7 +43,8 @@ nav img {
     margin: 0 10px;
 }
 
-header {
+#about {
+    background-color: #f8f6f0;
     display: flex;
     text-align: center;
     align-items: center;
@@ -55,13 +56,13 @@ header {
     margin: auto;
 }
 
-header h1 {
+#about h1 {
     font-size: 30px;
     margin-bottom: 10px;
     margin-top: 0;
 }
 
-header p {
+#about p {
     font-size: 2vw;
     margin: 0;
 }
@@ -75,20 +76,17 @@ section p {
     margin: 0;
 }
 
-.intro {
-    background-color: #f8f6f0;
-}
-
-#about {
+#intro {
     background-color: #f8f6f0;
     text-align: left;
 }
 
-.about span {
+#intro span {
     background-color: #efe7fa;
 }
 
 .profile {
+    background-color: #f8f6f0;
     max-width: 100%;
     margin-top: 100px;
     padding: 50px;
