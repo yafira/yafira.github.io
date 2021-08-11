@@ -67,6 +67,20 @@ nav img {
     margin: 0;
 }
 
+.about-more, .about-less {
+    display: block;
+    padding: 5px 10px;
+    margin: 30px 0px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
 section {
     padding: 200px 20px 0;
     text-align: center;
@@ -76,12 +90,12 @@ section p {
     margin: 0;
 }
 
-#intro {
+.intro {
     background-color: #f8f6f0;
     text-align: left;
 }
 
-#intro span {
+.intro span {
     background-color: #efe7fa;
 }
 
