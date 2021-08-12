@@ -17,6 +17,15 @@
     #skills {
     height: fit-content;
     }
+
+    button {
+        height: 48px;
+        width:  48px;
+    }
+
+    #myBtn {
+        font-size: 7px;
+    }
 }
 
 @media (max-width: 440px) {
