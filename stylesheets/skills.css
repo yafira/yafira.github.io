@@ -12,7 +12,7 @@
 
 #tech {
     padding: 0 200px;
-    columns: 2 300px 3;
+    columns: 3 300px 3;
 }
 
 #tech b {
@@ -22,9 +22,14 @@
     margin: auto;
 }
 
+.tech-stack h5 {
+    background-color: rgb(221, 253, 241);
+    display: inline;
+}
+
 #tools {
     padding: 0 200px;
-    columns: 200px 2;
+    columns: 2 200px 2;
 }
 
 #tools b {
