@@ -1,7 +1,7 @@
 /* Modal Button */
 button {
-    height: 100px;
-    width:  100px;
+    height: 70px;
+    width:  70px;
     display: block;
     border: 2px dashed black;
     background-color: rgb(231, 252, 232);
@@ -20,7 +20,7 @@ button:hover {
 }
 
 #myBtn {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 }
 
