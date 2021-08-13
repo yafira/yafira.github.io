@@ -11,7 +11,8 @@
     }
 
     .social-links {
-    padding: 100px 20px;
+    margin: auto;
+    flex-direction: column;
     }
 
     #skills {
@@ -25,6 +26,10 @@
 
     #myBtn {
         font-size: 7px;
+    }
+
+    #looping-squares, #news-bits, #rps, #timer, #drum-kit, #card-game {
+        width: auto;
     }
 }
 

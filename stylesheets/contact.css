@@ -1,7 +1,7 @@
 #contact {
-    padding: 100px 0 0;
     box-sizing: border-box;
     height: calc(100vh - 50px);
+    display: flex;
 }
 
 .bg-potpourri {
@@ -13,16 +13,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     list-style-type: none;
-    padding: 200px;
-    margin: 0;
-    height: 110px;
+    margin: auto;
+    flex-direction: row;
 }
 
 .social-links li {
-    padding: 20px 20px;
-    width: 25%;
+    margin: 10px;
 }
 
 .social-links li:hover {
@@ -39,6 +37,7 @@
     font-size: 75px;
     height: 120px;
     width: 120px;
+    text-decoration: none;
 }
 
 .social-links a:hover {
