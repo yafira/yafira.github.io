@@ -1,22 +1,71 @@
 @media (max-width: 740px) {
+
     nav a {
-    margin-left: 0;
-    font-size: 15px;
+        margin-left: 0;
+        margin-top: 0px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .profile {
+        flex-direction: column;
+        padding: 50px 10px;
+        margin-top: 0px;
+    }
+
+    .profile img {
+        margin-top: 0px;
+        max-width: 70%;
+    }
+
+    .profile > div {
+        width: 100%;
+    }
+
+    #about h1 {
+        font-size: 15px;
+    }
+
+    #about p {
+        font-size: 13px;
     }
 
     #my-skills {
-    font-size: 15px;
-    padding: 0px;
-    margin: 20px 0;
+        font-size: 15px;
+        padding: 0px;
+        margin: 20px 0;
     }
 
     .social-links {
-    margin: auto;
-    flex-direction: column;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #contact, .profile {
+        padding-top: 200px;
+    }
+
+    #tech > ul {
+        width: 95%;
+        padding: 30px 0px 0px 0px;
+    }
+
+    #tools {
+        padding-top: 50px;
+    }
+
+    #tools > ul {
+        flex-direction: column;
+    }
+
+    #tools > ul li {
+        padding: 10px;
+        width: 90%;
+        margin: auto;
     }
 
     #skills {
-    height: fit-content;
+        height: fit-content;
     }
 
     button {

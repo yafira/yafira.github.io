@@ -17,6 +17,7 @@
     list-style-type: none;
     margin: auto;
     flex-direction: row;
+    padding: 0px;
 }
 
 .social-links li {
