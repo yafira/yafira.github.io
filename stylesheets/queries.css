@@ -28,7 +28,8 @@
     }
 
     #about p {
-        font-size: 12px;
+        font-size: 11px;
+        margin-bottom: 10px;
     }
 
     #my-skills {
@@ -42,8 +43,23 @@
         flex-direction: column;
     }
 
-    #contact, .profile {
-        padding-top: 200px;
+    .social-links a {
+        font-size: 50px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .profile {
+        padding-top: 275px;
+    }
+
+    #contact {
+        padding: 50px 0px;
+    }
+
+    #contact {
+        height: auto;
+
     }
 
     #tech > ul {
