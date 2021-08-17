@@ -8,14 +8,15 @@
     }
 
     .profile {
-        flex-direction: column;
-        padding: 50px 10px;
-        margin-top: 0px;
+        /* flex-direction: column; */
+        padding: 20px;
+        margin-top: 50px;
     }
 
     .profile img {
-        margin-top: 0px;
-        max-width: 70%;
+        margin-left: 10px;
+        margin-bottom: 100px;
+        max-width: 100%;
     }
 
     .profile > div {
@@ -23,11 +24,11 @@
     }
 
     #about h1 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #about p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     #my-skills {
