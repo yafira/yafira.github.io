@@ -156,3 +156,11 @@
 #projects h4 {
     background-color: rgb(221, 253, 241);
 }
+
+#github-link {
+    color: #000;
+}
+
+#github-link:hover {
+    color: rgb(235, 26, 242);
+}
