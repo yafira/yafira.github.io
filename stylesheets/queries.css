@@ -8,14 +8,14 @@
     }
 
     .profile {
-        /* flex-direction: column; */
+        flex-direction: column-reverse;
         padding: 20px;
+        padding-top: 150px;
         margin-top: 50px;
     }
 
     .profile img {
-        margin-left: 10px;
-        margin-bottom: 100px;
+        margin: 0px;
         max-width: 100%;
     }
 
@@ -23,12 +23,17 @@
         width: 100%;
     }
 
+    #projects {
+        padding-top: 200px;
+    }
+
     #about h1 {
         font-size: 13px;
     }
 
     #about p {
-        font-size: 3vw;
+        font-size: 12px;
+        line-height: 16px;
         margin-bottom: 20px;
     }
 
@@ -49,12 +54,8 @@
         width: 70px;
     }
 
-    .profile {
-        padding-top: 275px;
-    }
-
     #contact {
-        padding: 50px 0px;
+        padding: 125px 50px;
     }
 
     #contact {
@@ -68,7 +69,7 @@
     }
 
     #tools {
-        padding-top: 50px;
+        padding-top: 200px;
     }
 
     #tools > ul {
@@ -83,6 +84,7 @@
 
     #skills {
         height: fit-content;
+        padding-top: 200px;
     }
 
     button {
