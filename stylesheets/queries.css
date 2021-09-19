@@ -10,13 +10,13 @@
     .profile {
         flex-direction: column-reverse;
         padding: 20px;
-        padding-top: 150px;
+        padding-top: 190px;
         margin-top: 50px;
     }
 
     .profile img {
         margin: 0px;
-        max-width: 100%;
+        max-width: 70%;
     }
 
     .profile > div {
