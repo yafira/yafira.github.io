@@ -3,6 +3,12 @@
     padding: 200px 20px 0;
 }
 
+#projects h2:hover {
+    color: cornflowerblue;
+    transition: 0.3s;
+    opacity: 1
+}
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
