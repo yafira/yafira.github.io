@@ -23,10 +23,6 @@
         width: 100%;
     }
 
-    #projects {
-        padding-top: 200px;
-    }
-
     #about h1 {
         font-size: 13px;
     }
@@ -35,6 +31,10 @@
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 20px;
+    }
+
+    #projects {
+        padding-top: 200px;
     }
 
     #my-skills {
@@ -80,7 +80,7 @@
 
     #skills {
         height: fit-content;
-        padding-top: 200px;
+        padding-top: 250px;
     }
 
     button {
