@@ -10,6 +10,18 @@
     padding: 200px 0 40px;
 }
 
+#skills h2:hover {
+    color: cornflowerblue;
+    transition: 0.3s;
+    opacity: 1
+}
+
+#skills h3:hover {
+    color: cornflowerblue;
+    transition: 0.3s;
+    opacity: 1
+}
+
 #tech {
     display: flex;
     flex-wrap: wrap;
