@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         themeStylesheet.href = 'light-theme.css'
         themeToggle.innerText = 'Switch to dark mode'
         }
+        // save the preference to localStorage
+        localStorage.setItem('theme',themeStylesheet.href)
     })
 })
 
