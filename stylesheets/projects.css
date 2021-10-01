@@ -59,23 +59,43 @@
     width: 100%;
 }
 
-#timer {
+#etch {
     width: 40%;
     color: #000;
     text-decoration: none;
     margin: 40px;
 }
 
-#timer p {
+#etch p {
     margin-bottom: 0px;
     font-weight: bold;
 }
 
-#timer:hover {
+#etch:hover {
     color: cornflowerblue;
 }
 
-#timer img {
+#etch img {
+    width: 100%;
+}
+
+#calculator {
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#calculator p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#calculator:hover {
+    color: cornflowerblue;
+}
+
+#calculator img {
     width: 100%;
 }
 
@@ -116,26 +136,6 @@
 }
 
 #card-game img {
-    width: 100%;
-}
-
-#drum-kit {
-    width: 40%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
-}
-
-#drum-kit p {
-    margin-bottom: 0px;
-    font-weight: bold;
-}
-
-#drum-kit:hover {
-    color: cornflowerblue;
-}
-
-#drum-kit img {
     width: 100%;
 }
 
