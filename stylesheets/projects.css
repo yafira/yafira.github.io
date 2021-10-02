@@ -19,6 +19,40 @@
     border: 8px dashed #A094e1;
 }
 
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.code-btn {
+    height: 30px;
+    width:  70px;
+    display: block;
+    border: 2px solid black;
+    background-color: rgb(209, 228, 252);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.demo-btn {
+    height: 30px;
+    width:  70px;
+    display: block;
+    border: 2px solid black;
+    background-color: rgb(249, 249, 193);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
 #looping-squares {
     width: 40%;
     color: #000;
@@ -29,10 +63,6 @@
 #looping-squares p {
     margin-bottom: 0px;
     font-weight: bold;
-}
-
-#looping-squares:hover {
-    color: cornflowerblue;
 }
 
 #looping-squares img {
@@ -51,10 +81,6 @@
     font-weight: bold;
 }
 
-#news-bits:hover {
-    color: cornflowerblue;
-}
-
 #news-bits img {
     width: 100%;
 }
@@ -69,10 +95,6 @@
 #etch p {
     margin-bottom: 0px;
     font-weight: bold;
-}
-
-#etch:hover {
-    color: cornflowerblue;
 }
 
 #etch img {
@@ -91,10 +113,6 @@
     font-weight: bold;
 }
 
-#calculator:hover {
-    color: cornflowerblue;
-}
-
 #calculator img {
     width: 100%;
 }
@@ -111,10 +129,6 @@
     font-weight: bold;
 }
 
-#rps:hover {
-    color: cornflowerblue;
-}
-
 #rps img {
     width: 100%;
 }
@@ -129,10 +143,6 @@
 #card-game p {
     margin-bottom: 0px;
     font-weight: bold;
-}
-
-#card-game:hover {
-    color: cornflowerblue;
 }
 
 #card-game img {
@@ -168,5 +178,5 @@
 }
 
 #github-link:hover {
-    color: rgb(239, 93, 244);
+    color: cornflowerblue;
 }
