@@ -53,6 +53,10 @@
     outline: none;
 }
 
+span {
+    margin-bottom: 0px;
+}
+
 #looping-squares {
     width: 40%;
     color: #000;
@@ -86,7 +90,7 @@
 }
 
 #etch {
-    width: 40%;
+    width: 50%;
     color: #000;
     text-decoration: none;
     margin: 40px;
