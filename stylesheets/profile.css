@@ -110,4 +110,21 @@ section p {
 .profile img {
     max-width: 100%;
     margin-top: 300px;
+    background-color: rgb(254, 249, 238);
+    /* background: linear-gradient(rgb(227, 225, 255), #f2f7fc); */
+    border-radius: 30% 80% 50% 60% / 60% 60% 40% 40%;
+    border: 3px dashed rgb(164, 171, 225);
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.profile img:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
 }
