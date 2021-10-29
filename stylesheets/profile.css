@@ -110,7 +110,7 @@ section p {
 .profile img {
     max-width: 100%;
     margin-top: 300px;
-    background-color: rgb(254, 249, 238);
+    background-color: rgb(240, 233, 255);
     /* background: linear-gradient(rgb(227, 225, 255), #f2f7fc); */
     border-radius: 30% 80% 50% 60% / 60% 60% 40% 40%;
     border: 3px dashed rgb(164, 171, 225);
