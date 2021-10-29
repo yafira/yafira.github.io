@@ -177,10 +177,10 @@ span {
     background-color: rgb(221, 253, 241);
 }
 
-#github-link {
+#github-link, #glitch-link {
     color: #000;
 }
 
-#github-link:hover {
+#github-link:hover, #glitch-link:hover {
     color: cornflowerblue;
 }
