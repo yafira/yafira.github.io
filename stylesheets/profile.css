@@ -115,7 +115,7 @@ section p {
     border-radius: 30% 80% 50% 60% / 60% 60% 40% 40%;
     border: 3px dashed rgb(164, 171, 225);
     animation-duration: 7s;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
     transform-origin: bottom;
 }
 
