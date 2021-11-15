@@ -1,5 +1,5 @@
 #skills {
-    background-color: #ecf3fe;
+    background-color: rgb(245, 236, 220);
     display: flex;
     text-align: center;
     align-items: center;
@@ -8,6 +8,7 @@
     position: relative;
     height: 100vh;
     padding: 200px 0 40px;
+    border: 5px solid rgb(225, 164, 205);
 }
 
 #skills h2:hover {
@@ -68,7 +69,8 @@
 }
 
 .tech-stack h4 {
-    background-color: rgb(221, 253, 241);
+    /* background-color: #ecf3fe; */
+    background-color: #e5f5ca;
 }
 
 #tools {
