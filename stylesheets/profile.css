@@ -133,12 +133,12 @@ section p {
     /* background: linear-gradient(rgba(212, 179, 240, 0.5), #f2f7fc); */
     border-radius: 30% 80% 50% 60% / 60% 60% 40% 40%;
     border: 2px dashed rgb(164, 171, 225);
-    animation-duration: 7s;
+    animation-duration: 15s;
     /* animation-iteration-count: infinite; */
     transform-origin: bottom;
 }
 
-.profile img:hover {
+.profile img {
     animation-name: bounce;
     animation-timing-function: ease;
 }
