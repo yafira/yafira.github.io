@@ -39,6 +39,30 @@
     outline: none;
 }
 
+.ptype-btn {
+    height: 30px;
+    width:  130px;
+    display: block;
+    border: 2px solid black;
+    background-color: rgb(227, 209, 252);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#seed-mobile {
+    height: 30px;
+    width:  80px;
+}
+
+#seed-web {
+    height: 30px;
+    width:  60px;
+}
+
 .demo-btn {
     height: 30px;
     width:  70px;
@@ -53,8 +77,27 @@
     outline: none;
 }
 
+.cs-btn {
+    height: 30px;
+    width:  80px;
+    font-size: 10px;
+    display: block;
+    border: 2px solid black;
+    background-color: rgb(244, 219, 249);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
 span {
     margin-bottom: 0px;
+}
+
+.div-line {
+    color: cornflowerblue;
 }
 
 #looping-squares {
@@ -153,6 +196,52 @@ span {
     width: 100%;
 }
 
+#bdazzled {
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#bdazzled p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#cosmic {
+    width: 30%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#cosmic p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#cosmic img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#seedling {
+    width: 30%;
+    color: #000;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#seedling p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#seedling img {
+    width: 100%;
+    border-radius: 15px;
+}
+
 .project-tile {
     color: #000;
     text-decoration: none;
@@ -177,10 +266,10 @@ span {
     background-color: #F0FAE0;
 }
 
-#github-link, #glitch-link {
+#github-link, #glitch-link, #dribbble-link {
     color: #000;
 }
 
-#github-link:hover, #glitch-link:hover {
+#github-link:hover, #glitch-link:hover, #dribbble-link:hover {
     color: cornflowerblue;
 }
