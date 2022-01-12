@@ -27,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -66,10 +66,12 @@
 
 #tech h5 {
     background-color: #f9e5f3;
+    font-size: 20px;
 }
 
 .tech-stack h4 {
     background-color: #ecf3fe;
+    font-size: 30px;
 }
 
 #tools {
@@ -82,6 +84,7 @@
 
 #tools h5 {
     background-color: #f9e5f3;
+    font-size: 20px;
 }
 
 #tools > ul {
@@ -96,7 +99,7 @@
     text-align: left;
     padding: 30px;
     margin: 20px 0px;
-    width: 33%;
+    width: 50%;
 }
 
 #tools > ul:nth-child(2) li {
