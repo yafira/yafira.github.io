@@ -9,8 +9,20 @@
     opacity: 1
 }
 
-#projects h3 {
-    color: #ee8fd0;
+.project-code h3 {
+    background-color: #d5dcf7;
+    width: max-content;
+    padding: 40px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.project-design h3 {
+    background-color: rgb(227, 209, 252);
+    width: max-content;
+    padding: 30px;
+    border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
+    align-items: center;
 }
 
 #projects h4 {
@@ -106,7 +118,7 @@ span {
 }
 
 .div-line {
-    color: cornflowerblue;
+    color: rgb(241, 160, 189);
     margin: 100px;
 }
 
