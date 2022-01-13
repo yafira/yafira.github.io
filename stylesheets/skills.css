@@ -27,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
@@ -35,7 +35,7 @@
     list-style-type: none;
     margin: 0px;
     width: 50%;
-    padding: 5px 50px;
+    padding: 0px 50px;
 }
 
 #tech > ul li {
@@ -76,12 +76,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
 #tools h5 {
     background-color: #f9e5f3;
+}
+
+#tools h2 {
+    margin-top: 50px;
 }
 
 #tools > ul {
