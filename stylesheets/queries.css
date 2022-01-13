@@ -79,21 +79,6 @@
         margin: auto;
     }
 
-    #tech h5 {
-        background-color: #f9e5f3;
-        font-size: 15px;
-    }
-
-    .tech-stack h4 {
-        background-color: #ecf3fe;
-        font-size: 25px;
-    }
-
-    #tools h5 {
-        background-color: #f9e5f3;
-        font-size: 15px;
-    }
-
     #skills {
         height: fit-content;
         padding-top: 260px;
