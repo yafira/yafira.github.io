@@ -15,7 +15,7 @@
     padding: 40px;
     border-radius: 100%;
     align-items: center;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .project-design h3 {
@@ -24,6 +24,7 @@
     padding: 30px;
     border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
     align-items: center;
+    margin: 50px auto;
 }
 
 #projects h4 {
@@ -37,7 +38,7 @@
     align-items: center;
     justify-content: center;
     max-width: 1000px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     /* border: 3px solid #A094e1; */
 }
 
