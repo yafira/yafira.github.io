@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #efece6;
     font-size: 20px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
@@ -15,7 +15,6 @@ body {
 }
 
 nav {
-    background-color: #FFFDFA;
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -48,7 +47,6 @@ nav img {
 }
 
 #about {
-    background-color: #f8f6f0;
     display: flex;
     text-align: center;
     align-items: center;
@@ -101,7 +99,6 @@ section p {
 }
 
 .intro {
-    background-color: #f8f6f0;
     text-align: left;
 }
 
@@ -110,7 +107,6 @@ section p {
 }
 
 .profile {
-    background-color: #f8f6f0;
     max-width: 100%;
     margin-top: 100px;
     padding: 50px;

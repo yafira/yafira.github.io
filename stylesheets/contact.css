@@ -5,7 +5,6 @@
 }
 
 .bg-potpourri {
-    background-color: #f8f6ed;
     color: #000;
 }
 
@@ -47,12 +46,13 @@
 
 footer {
     height: 50px;
-    background-color: #FFFDFA;
+    background-color: #faf9f6;
     text-align: center;
     padding-top: 10px;
 }
 
 footer .fa-heart {
+    background-color: #faf9f6;
     color: rgb(217, 181, 242);
     padding: 0 10px 0;
 }

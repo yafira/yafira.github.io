@@ -1,5 +1,4 @@
 #projects {
-    background: #edebfc;
     padding: 200px 20px 0;
 }
 
@@ -138,6 +137,7 @@ span {
 
 #looping-squares img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #news-bits {
@@ -154,6 +154,7 @@ span {
 
 #news-bits img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #etch {
@@ -170,6 +171,7 @@ span {
 
 #etch img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #calculator {
@@ -186,6 +188,7 @@ span {
 
 #calculator img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #rps {
@@ -202,6 +205,7 @@ span {
 
 #rps img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #card-game {
@@ -218,6 +222,7 @@ span {
 
 #card-game img {
     width: 100%;
+    border: #000 solid 2px;
 }
 
 #bdazzled {
@@ -230,6 +235,10 @@ span {
 #bdazzled p {
     margin-bottom: 0px;
     font-weight: bold;
+}
+
+#bdazzled img {
+    border: #000 solid 2px;
 }
 
 #cosmic {
@@ -264,6 +273,7 @@ span {
 #seedling img {
     width: 100%;
     border-radius: 15px;
+    border: #000 solid 2px;
 }
 
 .project-tile {
@@ -287,6 +297,7 @@ span {
 }
 
 #github-link, #glitch-link, #dribbble-link {
+    background-color: #F0FAE0;
     color: #000;
 }
 
