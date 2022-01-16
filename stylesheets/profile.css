@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #efece6;
+    /* background-color: #efece6; */
+    background-color: #FFFDFA;
     font-size: 20px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
@@ -15,6 +16,8 @@ body {
 }
 
 nav {
+    background-color: #faf9f6;
+    /* background-color: #FFFDFA; */
     color: #FFF;
     display: flex;
     justify-content: space-between;
