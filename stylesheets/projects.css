@@ -1,306 +1,282 @@
 #projects {
-    padding: 200px 20px 0;
+	padding: 200px 20px 0;
 }
 
 #projects h2:hover {
-    color: cornflowerblue;
-    transition: 0.3s;
-    opacity: 1
+	color: cornflowerblue;
+	transition: 0.3s;
+	opacity: 1;
 }
 
 .project-code h3 {
-    background-color: #d5dcf7;
-    width: max-content;
-    padding: 40px;
-    border-radius: 100%;
-    align-items: center;
-    margin: 50px auto;
+	background-color: #d5dcf7;
+	width: max-content;
+	padding: 40px;
+	border-radius: 100%;
+	align-items: center;
+	margin: 50px auto;
 }
 
 .project-design h3 {
-    background-color: rgb(227, 209, 252);
-    width: max-content;
-    padding: 30px;
-    border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
-    align-items: center;
-    margin: 50px auto;
+	background-color: rgb(227, 209, 252);
+	width: max-content;
+	padding: 30px;
+	border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
+	align-items: center;
+	margin: 50px auto;
 }
 
 #projects h4 {
-    background-color: #F0FAE0;
-    margin-top: 100px;
+	background-color: #f0fae0;
+	margin-top: 100px;
 }
 
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 50px auto 0;
-    /* border: 3px solid #A094e1; */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 50px auto 0;
+	/* border: 3px solid #A094e1; */
 }
 
 .project-buttons {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#projects span a {
+	border: 2px solid black;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 0.8em;
+	transition: all 0.3s ease 0s;
+}
+
+#projects span a:hover {
+	background-color: rgb(200, 200, 245);
+	color: #000;
+	transform: translateY(-7px);
 }
 
 .code-btn {
-    height: 30px;
-    width:  70px;
-    display: block;
-    border: 2px solid black;
-    background-color: rgb(209, 228, 252);
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+	background-color: rgb(209, 228, 252);
 }
 
-.ptype-btn {
-    height: 30px;
-    width:  130px;
-    display: block;
-    border: 2px solid black;
-    background-color: rgb(227, 209, 252);
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-}
-
-#seed-mobile {
-    height: 30px;
-    width:  80px;
-}
-
-#seed-web {
-    height: 30px;
-    width:  60px;
+.ptype-btn,
+.mobile-btn,
+.web-btn {
+	background-color: rgb(227, 209, 252);
 }
 
 .demo-btn {
-    height: 30px;
-    width:  70px;
-    display: block;
-    border: 2px solid black;
-    background-color: rgb(244, 244, 210);
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+	background-color: rgb(244, 244, 210);
 }
 
 .cs-btn {
-    height: 30px;
-    width:  80px;
-    font-size: 10px;
-    display: block;
-    border: 2px solid black;
-    background-color: rgb(244, 219, 249);
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+	background-color: rgb(244, 219, 249);
 }
 
 span {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .div-line {
-    color: rgb(241, 160, 189);
-    margin: 100px;
+	color: rgb(241, 160, 189);
+	margin: 100px;
 }
 
 #looping-squares {
-    width: 40%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 40%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #looping-squares p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #looping-squares img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #news-bits {
-    width: 40%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 40%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #news-bits p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #news-bits img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #etch {
-    width: 50%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 50%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #etch p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #etch img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #calculator {
-    width: 40%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 40%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #calculator p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #calculator img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #rps {
-    width: 38%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 38%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #rps p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #rps img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #card-game {
-    width: 30%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 30%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #card-game p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #card-game img {
-    width: 100%;
-    border: #000 solid 2px;
+	width: 100%;
+	border: #000 solid 2px;
 }
 
 #bdazzled {
-    width: 100%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 100%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #bdazzled p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #bdazzled img {
-    border: #000 solid 2px;
+	border: #000 solid 2px;
 }
 
 #cosmic {
-    width: 30%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 30%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #cosmic p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #cosmic img {
-    width: 100%;
-    border-radius: 15px;
+	width: 100%;
+	border-radius: 15px;
 }
 
 #seedling {
-    width: 30%;
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
+	width: 30%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
 }
 
 #seedling p {
-    margin-bottom: 0px;
-    font-weight: bold;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 #seedling img {
-    width: 100%;
-    border-radius: 15px;
-    border: #000 solid 2px;
+	width: 100%;
+	border-radius: 15px;
+	border: #000 solid 2px;
 }
 
 .project-tile {
-    color: #000;
-    text-decoration: none;
-    margin: 40px;
-    max-width: 250px;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
+	max-width: 250px;
 }
 
 .project-tile:hover {
-    color: cornflowerblue;
+	color: cornflowerblue;
 }
 
 .project-tile img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 .project-tile p {
-    font-size: 20px;
-    margin-top: 10px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
-#github-link, #glitch-link, #dribbble-link {
-    background-color: #F0FAE0;
-    color: #000;
+#github-link,
+#glitch-link,
+#dribbble-link {
+	background-color: #f0fae0;
+	color: #000;
 }
 
-#github-link:hover, #glitch-link:hover, #dribbble-link:hover {
-    color: cornflowerblue;
+#github-link:hover,
+#glitch-link:hover,
+#dribbble-link:hover {
+	color: cornflowerblue;
 }

@@ -1,252 +1,506 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="./assets/gadgets2.jpg">
-    <meta name="description" content="Portfolio Website">
-    <link rel="stylesheet" href="./stylesheets/contact.css">
-    <link rel="stylesheet" href="./stylesheets/modal.css">
-    <link rel="stylesheet" href="./stylesheets/profile.css">
-    <link rel="stylesheet" href="./stylesheets/projects.css">
-    <link rel="stylesheet" href="./stylesheets/skills.css">
-    <link rel="stylesheet" href="./stylesheets/queries.css">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:image" content="./assets/gadgets2.jpg" />
+		<meta name="description" content="Portfolio Website" />
+		<link rel="stylesheet" href="./stylesheets/contact.css" />
+		<link rel="stylesheet" href="./stylesheets/modal.css" />
+		<link rel="stylesheet" href="./stylesheets/profile.css" />
+		<link rel="stylesheet" href="./stylesheets/projects.css" />
+		<link rel="stylesheet" href="./stylesheets/skills.css" />
+		<link rel="stylesheet" href="./stylesheets/queries.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 
-    <title>Yafira M.</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel ="icon" href="https://img.icons8.com/dusk/64/000000/save--v1.png"
-        type ="img-icon">
-</head>
+		<title>Yafira M.</title>
 
-<body>
+		<link
+			rel="icon"
+			href="https://img.icons8.com/dusk/64/000000/save--v1.png"
+			type="img-icon"
+		/>
+	</head>
 
-<nav id="navbar">
+	<body>
+		<nav id="navbar">
+			<div>
+				<img
+					src="https://img.icons8.com/dusk/64/000000/save--v1.png"
+					alt="logo"
+					width="100px"
+				/>
+			</div>
+			<div>
+				<a href="#about">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#skills">Toolkit</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</nav>
 
-    <div>
-        <img src="https://img.icons8.com/dusk/64/000000/save--v1.png" alt="logo" width="100px"/>
-    </div>
-    <div>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Toolkit</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
+		<div id="about">
+			<div class="about-img">
+				<img src="./assets/gadgets.png" alt="image" />
+			</div>
 
-<div class="container">
-    <div class="content">
-        <div id ="about">
-            <div class="profile">
-                <div class="about-img">
-                    <img src="./assets/gadgets.png" alt="image"/>
-                </div>
+			<div class="intro">
+				<h1>HELLO, WORLD!_ ✿</h1>
 
-                <div class="intro">
-                    <h1>> HELLO, WORLD!_ ✿ </h1>
-                    <p>My name is Yafira Martinez.<br>
-                    I'm a <span>Creative Software Engineer</span> based in NYC with interests in computing, emerging technologies, design and the intersection of technology and art. I am also enthusiastic about Artificial Intelligence and Machine Learning and how it can enhance user experiences, task performance, and quality of life. My goal is to build tools that help people and also to improve and expand the interaction between humans and computers.
-                    </p>
+				<p>
+					My name is Yafira Martinez.<br />
+					I'm a <span>Creative Software Engineer</span> based in NYC with
+					interests in computing, emerging technologies, design and the
+					intersection of technology and art. I am also enthusiastic about
+					Artificial Intelligence and Machine Learning and how it can enhance
+					user experiences, task performance, and quality of life. My goal is to
+					build tools that help people and also to improve and expand the
+					interaction between humans and computers.
+				</p>
 
-                    <div class="about-more">
-                        <!-- The Modal Button -->
-                        <button id="myBtn"> ϟ + more about me </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+				<div class="about-more">
+					<!-- The Modal Button -->
+					<button id="myBtn">ϟ + more about me</button>
+				</div>
+			</div>
+		</div>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>+ more about me ϟ ✿</h2>
+				</div>
+				<div class="modal-body">
+					<br />
+					<p>
+						As a design oriented thinker with attention to detail -- user
+						experience, clean accessible code, and beautiful pixels are
+						essential to me. I thrive in creative environments and am passionate
+						about bringing both the technical and creative aspects of digital
+						products to life; by developing and designing experiences that can
+						translate digital creations into physical inventions. As an advocate
+						for Dieter Rams's
+						<a
+							id="good-design"
+							href="https://ifworlddesignguide.com/design-specials/dieter-rams-10-principles-for-good-design"
+							target="_blank"
+							style="color: rgb(211, 132, 227)"
+							>10 Principles of Good Design</a
+						>
+						and John Maeda’s
+						<a
+							id="laws-simplicity"
+							href="http://lawsofsimplicity.com/"
+							target="_blank"
+							style="color: rgb(211, 132, 227)"
+							>Laws Of Simplicity</a
+						>
+						-- I also agree that <i>less is more</i>.
+					</p>
+					<p>
+						I'm a recent graduate with a BSc in Computer Science. In the past, I
+						have also earned a BBA in Business Administration with a minor in
+						journalism. However, upon graduating I couldn't picture myself
+						settling in that career path anymore. I didn't feel like I was
+						learning any useful knowledge, and decided I was not in the right
+						field. Post-college, none of the job opportunities were remotely
+						attractive. I realized a bit late that it wasn't exactly what I
+						desired to do. I was in search of something much more interactive
+						and where I could broaden my creativity. I also wanted to do
+						something that was useful in ways that could create an impact in the
+						world -- fortunately technology and design awakened that interest
+						and unknowingly has always been my true passion. I became fascinated
+						with the way innovations in technology are able to improve everyday
+						quality of life, from education, medicine to universal design.
+						Switching career paths wasn't easy but I found joy in challenging
+						myself throughout this journey.
+					</p>
+					<p>
+						The craft of programming and design has given me the courage and
+						desire to utilize my creativity and knowledge in a more powerful
+						way. As I learned more about technology and its great advancements,
+						software and the impact it can have in our day to day, I saw the
+						potential it had to enhance our lives and help society as whole. We
+						are closer each day to a better future and I want nothing more to be
+						apart of this movement. I am a life-long learner, eager to pick up
+						new technologies, passionate about learning, growing, exploring,
+						improving my technical skills and thinking about how to make things
+						better. My goal is to improve and expand the interaction between
+						humans and computers by developing and designing tools that has
+						broad social impact.
+					</p>
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <div class="modal-header">
-        <span class="close">&times;</span>
-        <h2>+ more about me ϟ ✿</h2>
-        </div>
-        <div class="modal-body">
-        <br>
-            <p>
-                As a design oriented thinker with attention to detail -- user experience, clean accessible code, and beautiful pixels are essential to me. I thrive in creative environments and am passionate about bringing both the technical and creative aspects of digital products to life; by developing and designing experiences that can translate digital creations into physical inventions. As an advocate for Dieter Rams's <a id="good-design" href="https://ifworlddesignguide.com/design-specials/dieter-rams-10-principles-for-good-design" target="_blank" style="color: rgb(211, 132, 227);">10 Principles of Good Design</a> and John Maeda’s  <a id="laws-simplicity" href="http://lawsofsimplicity.com/" target="_blank" style="color: rgb(211, 132, 227);">Laws Of Simplicity</a> -- I also agree that <i>less is more</i>.
-            </p>
-            <p>
-                I'm a recent graduate with a BSc in Computer Science. In the past, I have also earned a BBA in Business Administration with a minor in journalism. However, upon graduating I couldn't picture myself settling in that career path anymore. I didn't feel like I was learning any useful knowledge, and decided I was not in the right field. Post-college, none of the job opportunities were remotely attractive. I realized a bit late that it wasn't exactly what I desired to do. I was in search of something much more interactive and where I could broaden my creativity. I also wanted to do something that was useful in ways that could create an impact in the world -- fortunately technology and design awakened that interest and unknowingly has always been my true passion. I became fascinated with the way innovations in technology are able to improve everyday quality of life, from education, medicine to universal design. Switching career paths wasn't easy but I found joy in challenging myself throughout this journey.
-            </p>
-            <p>
-                The craft of programming and design has given me the courage and desire to utilize my creativity and knowledge in a more powerful way. As I learned more about technology and its great advancements, software and the impact it can have in our day to day, I saw the potential it had to enhance our lives and help society as whole. We are closer each day to a better future and I want nothing more to be apart of this movement. I am a life-long learner, eager to pick up new technologies, passionate about learning, growing, exploring, improving my technical skills and thinking about how to make things better. My goal is to improve and expand the interaction between humans and computers by developing and designing tools that has broad social impact.
-            </p>
-            </p>
-            <h4>Currently 🍵 </h4>
-            <p>
-                As a recent grad, I'm currently seeking a full-time opportunity in tech. Meanwhile, I  am spending my time learning and improving my programming and UI/UX skills, brainstorming ideas for future hands-on arts & crafts projects, taking photos of sceneries and things, attempting to learn a third language, dabbling in culinary explorations, curious about sound synthesis amongst many other things. I am also dreaming about opening up the first tea & confectionery cafe in space! (kidding, but not really).
-            </p>
-        <br>
-        </div>
-        <div class="modal-footer">
-            <p>☆ Resume available upon request.</p>
-        </div>
-    </div>
-</div>
+					<h4>Currently 🍵</h4>
+					<p>
+						As a recent grad, I'm currently seeking a full-time opportunity in
+						tech. Meanwhile, I am spending my time learning and improving my
+						programming and UI/UX skills, brainstorming ideas for future
+						hands-on arts & crafts projects, taking photos of sceneries and
+						things, attempting to learn a third language, dabbling in culinary
+						explorations, curious about sound synthesis amongst many other
+						things. I am also dreaming about opening up the first tea &
+						confectionery cafe in space! (kidding, but not really).
+					</p>
+					<br />
+				</div>
+				<div class="modal-footer">
+					<p>☆ Resume available upon request.</p>
+				</div>
+			</div>
+		</div>
 
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project-code">
+				<h3>Code</h3>
+			</div>
+			<div class="projects-container">
+				<span id="looping-squares">
+					<img src="./assets/looping-squares.gif" alt="looping-squares" />
+					<p>Creative Motion - Looping Squares</p>
+					<span>JavaScript (Two.js)</span>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/Yafira/creative-coding/tree/master/Looping%20squares"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<span id="news-bits">
+					<img src="./assets/news-app.gif" alt="news-app" />
+					<p>NewsBits - News App</p>
+					<span>React Native</span>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/Yafira/newsBits"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<span id="rps">
+					<img src="./assets/kawaii-rps.gif" alt="rps-game" />
+					<p>Kawaii Rock-Paper-Scissors Game</p>
+					<span>HTML/CSS/JavaScript</span>
+					<div class="project-buttons">
+						<a
+							href="https://kawaii-rps.glitch.me"
+							class="demo-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Demo
+						</a>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-code">
-            <h3>Code</h3>
-        </div>
-        <div class="projects-container">
-            <span id="looping-squares">
-                <img src="./assets/looping-squares.gif" alt="looping-squares"/>
-                <p>Creative Motion - Looping Squares</p>
-                <span>JavaScript (Two.js)</span>
-                    <div class="project-buttons">
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/creative-coding/tree/master/Looping%20squares'">Code</button>
-                    </div>
-            </span>
-            <span id="news-bits">
-                <img src="./assets/news-app.gif" alt="news-app"/>
-                <p>NewsBits - News App</p>
-                <span>React Native</span>
-                    <div class="project-buttons">
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/newsBits'">Code</button>
-                    </div>
-            </span>
-            <span id="rps">
-                <img src="./assets/kawaii-rps.gif" alt="rps-game"/>
-                <p>Kawaii Rock-Paper-Scissors Game</p>
-                <span>HTML/CSS/JavaScript</span>
-                    <div class="project-buttons">
-                        <button class="demo-btn" onclick="location.href='https://kawaii-rps.glitch.me/'">Demo</button>
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/rock-paper-scissors'">Code</button>
-                    </div>
-            </span>
-            <span id="calculator">
-                <img src="./assets/calculator.gif" alt="calculator"/>
-                <p>Sailor Moon Calculator</p>
-                <span>HTML/CSS/JavaScript</span>
-                    <div class="project-buttons">
-                        <button class="demo-btn" onclick="location.href='https://sailor-moon-calculator.glitch.me'">Demo</button>
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/calculator'">Code</button>
-                    </div>
-            </span>
-            <span id="etch" target="_blank">
-                <img src="./assets/etch.gif" alt="etch"/>
-                <p>Simple Etch-a-Sketch</p>
-                <span>HTML/CSS/JavaScript</span>
-                    <div class="project-buttons">
-                        <button class="demo-btn" onclick="location.href='https://etch-sketch.glitch.me/'">Demo</button>
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/etch-a-sketch'">Code</button>
-                    </div>
-            </span>
-            <span id="card-game" target="_blank">
-                <img src="./assets/concentration.gif" alt="card-game"/>
-                <p>Concentration Card Game</p>
-                <span>Mobile (iOS), Swift</span>
-                    <div class="project-buttons">
-                        <button class="code-btn" onclick="location.href='https://github.com/Yafira/concentration'">Code</button>
-                    </div>
-            </span>
-            <div class ="div-line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
-            <div class="project-design">
-                <h3>Design</h3>
-            </div>
-            <span id="bdazzled" target="_blank">
-                <img src="./assets/bdazzled.gif" alt="bdazzled"/>
-                <p>bDazzled, a custom bicycle web shop</p>
-                <span>UX Design</span>
-                    <div class="project-buttons">
-                        <button class="ptype-btn" onclick="location.href='https://etch-sketch.glitch.me/'">Prototype</button>
-                        <button class="cs-btn" onclick="location.href='assets/bDazzled - Case study.pdf'">Case study</button>
-                    </div>
-            </span>
-            <span id="cosmic" target="_blank">
-                <img src="./assets/cosmic-snax.gif" alt="cosmic"/>
-                <p>Cosmic Snax, a snack ordering app for a movie theater</p>
-                <span>UX Design</span>
-                    <div class="project-buttons">
-                        <button class="ptype-btn" onclick="location.href='https://www.figma.com/proto/oTPH8BW7owaY91IVOlR6KC/Cosmic-Snax?page-id=248%3A2311&node-id=256%3A1892&viewport=245%2C48%2C0.23&scaling=min-zoom&starting-point-node-id=256%3A1892'">Prototype</button>
-                        <button class="cs-btn" onclick="location.href='assets/Cosmic Snax - Case study.pdf'">Case study</button>
-                    </div>
-            </span>
-            <span id="seedling" target="_blank">
-                <img src="./assets/seedling.gif" alt="seedling"/>
-                <p>Seedling, a tool to help people with creativity</p>
-                <span>UX Design</span>
-                    <div class="project-buttons">
-                        <button class="ptype-btn" id="seed-mobile" onclick="location.href='https://www.figma.com/proto/5iTIwNSNoKFmnuOhgL2ocn/Seedling?page-id=36%3A1963&node-id=36%3A2223&viewport=245%2C48%2C0.22&scaling=min-zoom&starting-point-node-id=36%3A2223'">Mobile</button>
-                        <button class="ptype-btn" id="seed-web" onclick="location.href='https://www.figma.com/proto/5iTIwNSNoKFmnuOhgL2ocn/Seedling?page-id=46%3A1304&node-id=50%3A3254&viewport=245%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=50%3A3254&show-proto-sidebar=1'">Web</button>
-                        <button class="cs-btn" onclick="location.href='assets/Seedling - Case study.pdf'">Case study</button>
-                    </div>
-            </span>
-            <h4>☆ Check out my
-                <a id="github-link" href="https://github.com/Yafira" target="_blank">GitHub</a>, <a id="glitch-link" href="https://glitch.com/@electrocute" target="_blank">Glitch</a> or <a id="dribbble-link" href="https://dribbble.com/y-fi" target="_blank">Dribbble</a> for more projects. </h4>
-        </div>
-    </section>
+						<a
+							href="https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/rock-paper-scissors"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<span id="calculator">
+					<img src="./assets/calculator.gif" alt="calculator" />
+					<p>Sailor Moon Calculator</p>
+					<span>HTML/CSS/JavaScript</span>
+					<div class="project-buttons">
+						<a
+							href="https://sailor-moon-calculator.glitch.me"
+							class="demo-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Demo
+						</a>
 
-    <section id="skills">
-        <div class="tech-stack">
-            <h2>Skills</h2>
-                <div id="my-skills">
+						<a
+							href="https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/calculator"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<span id="etch" target="_blank">
+					<img src="./assets/etch.gif" alt="etch" />
+					<p>Simple Etch-a-Sketch</p>
+					<span>HTML/CSS/JavaScript</span>
+					<div class="project-buttons">
+						<a
+							href="https://etch-sketch.glitch.me"
+							class="demo-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Demo
+						</a>
 
-                    <div id="tech">
-                        <ul>
-                            <li><h4>Experience with:</h4></li>
-                            <li><h5>Front-end development:</h5> <p> JavaScript, HTML5 & CSS3, UI/UX</p></li>
-                            <li><h5>Back-end development:</h5> <p> Python, Java</p></li>
-                            <li><h5>Data Engineering:</h5> <p> SQL, Data Analysis & Machine Learning</p></li>
-                            <li><h5>UX Design:</h5> <p> Wireframing, UI Prototyping, Research, Visual communication, Information architecture</p></li>
-                        </ul>
+						<a
+							href="https://github.com/Yafira/the-odin-project/tree/main/foundations/projects/etch-a-sketch"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<span id="card-game" target="_blank">
+					<img src="./assets/concentration.gif" alt="card-game" />
+					<p>Concentration Card Game</p>
+					<span>Mobile (iOS), Swift</span>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/Yafira/concentration"
+							class="code-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Code
+						</a>
+					</div>
+				</span>
+				<div class="div-line">
+					━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+				</div>
+				<div class="project-design">
+					<h3>Design</h3>
+				</div>
+				<span id="bdazzled" target="_blank">
+					<img src="./assets/bdazzled.gif" alt="bdazzled" />
+					<p>bDazzled, a custom bicycle web shop</p>
+					<span>UX Design</span>
+					<div class="project-buttons">
+						<a
+							href="https://www.figma.com/proto/GdO2Bto4BnWhiwRuo6coS1/bDazzled?node-id=38%3A5020&starting-point-node-id=38%3A5020"
+							class="ptype-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Prototype
+						</a>
 
-                        <ul>
-                            <li><h4>Exposure to:</h4></li>
-                            <li><h5>Frameworks/Server-side:</h5> <p> React, Node.js, P5.js</p></li>
-                            <li><h5>Relational Database/NoSQL:</h5> <p> PostgreQSL, Firebase</p></li>
-                            <li><h5>Mobile Development:</h5> <p> Swift, React Native</p></li>
-                            <li><h5>Hardware:</h5> <p> Arduino, Raspberry Pi</p></li>
-                        </ul>
+						<a
+							href="assets/bDazzled - Case study.pdf"
+							class="cs-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Case study
+						</a>
+					</div>
+				</span>
+				<span id="cosmic" target="_blank">
+					<img src="./assets/cosmic-snax.gif" alt="cosmic" />
+					<p>Cosmic Snax, a snack ordering app for a movie theater</p>
+					<span>UX Design</span>
+					<div class="project-buttons">
+						<a
+							href="https://www.figma.com/proto/oTPH8BW7owaY91IVOlR6KC/Cosmic-Snax?page-id=248%3A2311&node-id=256%3A1892&viewport=245%2C48%2C0.23&scaling=min-zoom&starting-point-node-id=256%3A1892"
+							class="ptype-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Prototype
+						</a>
 
-                        <ul>
-                            <li><h4>Currently learning:</h4></li>
-                            <li><p>Ruby, Ruby on Rails, 3D modeling</p></li>
-                        </ul>
+						<a
+							href="assets/Cosmic Snax - Case study.pdf"
+							class="cs-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Case study
+						</a>
+					</div>
+				</span>
+				<span id="seedling" target="_blank">
+					<img src="./assets/seedling.gif" alt="seedling" />
+					<p>Seedling, a tool to help people with creativity</p>
+					<span>UX Design</span>
+					<div class="project-buttons">
+						<a
+							href="https://www.figma.com/proto/5iTIwNSNoKFmnuOhgL2ocn/Seedling?page-id=36%3A1963&node-id=36%3A2223&viewport=245%2C48%2C0.22&scaling=min-zoom&starting-point-node-id=36%3A2223"
+							class="mobile-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Mobile
+						</a>
 
-                    </div>
+						<a
+							href="https://www.figma.com/proto/5iTIwNSNoKFmnuOhgL2ocn/Seedling?page-id=46%3A1304&node-id=50%3A3254&viewport=245%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=50%3A3254&show-proto-sidebar=1"
+							class="web-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Web
+						</a>
 
-                    <div id ="tools">
-                            <h2>Tools</h2>
-                        <ul>
-                            <li><h5>Software:</h5> <p> Visual Studio Code, git, GitHub, Command Line, Notion, TensorFlow</p></li>
-                            <li><h5>Design:</h5> <p> Figma, Adobe (XD, Fresco, Photoshop & Illustrator)</p>
-                        </ul>
-                    </div>
-                </div>
-        </div>
-    </section>
+						<a
+							href="assets/Seedling - Case study.pdf"
+							class="cs-btn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Case study
+						</a>
+					</div>
+				</span>
 
-    <section id="contact" class="bg-potpourri">
-        <ul class="social-links">
-        <li><a id="profile-link" href="https://github.com/Yafira" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a id="profile-link" href="https://dribbble.com/y-fi"><i class="fab fa-dribbble" target="_blank"></i></a></li>
-        <li><a id="profile-link" href="mailto:yfr.mrtnz@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
-        <li><a id="profile-link" href="https://www.linkedin.com/in/yafira/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        </ul>
-    </section>
+				<h4>
+					☆ Check out my
+					<a id="github-link" href="https://github.com/Yafira" target="_blank"
+						>GitHub</a
+					>,
+					<a
+						id="glitch-link"
+						href="https://glitch.com/@electrocute"
+						target="_blank"
+						>Glitch</a
+					>
+					or
+					<a id="dribbble-link" href="https://dribbble.com/y-fi" target="_blank"
+						>Dribbble</a
+					>
+					for more projects.
+				</h4>
+			</div>
+		</section>
 
+		<section id="skills">
+			<h2>Skills</h2>
 
-        <footer>
-            © 2021 Made with <i class="fas fa-heart"></i> by Yafira
-        </footer>
+			<div id="my-skills">
+				<div id="tech">
+					<ul>
+						<li><h4>Experience with:</h4></li>
+						<li>
+							<h5>Front-end development:</h5>
+							<p>JavaScript, HTML5 & CSS3, UI/UX</p>
+						</li>
+						<li>
+							<h5>Back-end development:</h5>
+							<p>Python, Java</p>
+						</li>
+						<li>
+							<h5>Data Engineering:</h5>
+							<p>SQL, Data Analysis & Machine Learning</p>
+						</li>
+						<li>
+							<h5>UX Design:</h5>
+							<p>
+								Wireframing, UI Prototyping, Research, Visual communication,
+								Information architecture
+							</p>
+						</li>
+					</ul>
 
+					<ul>
+						<li><h4>Exposure to:</h4></li>
+						<li>
+							<h5>Frameworks/Server-side:</h5>
+							<p>React, Node.js, P5.js</p>
+						</li>
+						<li>
+							<h5>Relational Database/NoSQL:</h5>
+							<p>PostgreQSL, Firebase</p>
+						</li>
+						<li>
+							<h5>Mobile Development:</h5>
+							<p>Swift, React Native</p>
+						</li>
+						<li>
+							<h5>Hardware:</h5>
+							<p>Arduino, Raspberry Pi</p>
+						</li>
+					</ul>
 
-</body>
+					<ul>
+						<li><h4>Currently learning:</h4></li>
+						<li><p>Ruby, Ruby on Rails, 3D modeling</p></li>
+					</ul>
+				</div>
+
+				<div id="tools">
+					<h2>Tools</h2>
+					<ul>
+						<li>
+							<h5>Software:</h5>
+							<p>
+								Visual Studio Code, git, GitHub, Command Line, Notion,
+								TensorFlow
+							</p>
+						</li>
+						<li>
+							<h5>Design:</h5>
+							<p>Figma, Adobe (XD, Fresco, Photoshop & Illustrator)</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="bg-potpourri">
+			<ul class="social-links">
+				<li>
+					<a id="profile-link" href="https://github.com/Yafira" target="_blank"
+						><i class="fab fa-github"></i
+					></a>
+				</li>
+				<li>
+					<a id="profile-link" href="https://dribbble.com/y-fi"
+						><i class="fab fa-dribbble" target="_blank"></i
+					></a>
+				</li>
+				<li>
+					<a id="profile-link" href="mailto:yfr.mrtnz@gmail.com" target="_blank"
+						><i class="far fa-envelope"></i
+					></a>
+				</li>
+				<li>
+					<a
+						id="profile-link"
+						href="https://www.linkedin.com/in/yafira/"
+						target="_blank"
+						><i class="fab fa-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</section>
+
+		<footer>© 2021 Made with <i class="fas fa-heart"></i> by Yafira</footer>
+	</body>
 </html>
 
 <!-- My Script -->
