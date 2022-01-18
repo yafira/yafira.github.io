@@ -13,9 +13,9 @@
     margin-top: 50px;
   }
 
-  .profile img {
-    margin: 0px;
-    max-width: 70%;
+  #about img {
+    margin-top: 450px;
+    max-width: 100%;
   }
 
   .profile > div {
@@ -23,13 +23,14 @@
   }
 
   #about h1 {
-    font-size: 13px;
+    font-size: 14px;
+    margin-top: 0px;
   }
 
   #about p {
     font-size: 13px;
     line-height: 16px;
-    margin-bottom: 80px;
+    height: auto;
     width: 150%;
   }
 
