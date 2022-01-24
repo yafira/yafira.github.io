@@ -1,58 +1,58 @@
 #contact {
-	box-sizing: border-box;
-	height: calc(100vh - 50px);
-	display: flex;
+  box-sizing: border-box;
+  height: calc(100vh - 50px);
+  display: flex;
 }
 
 .bg-potpourri {
-	color: #000;
+  color: #000;
 }
 
 .social-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	list-style-type: none;
-	margin: auto;
-	flex-direction: row;
-	padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: auto;
+  flex-direction: row;
+  padding: 0px;
 }
 
 .social-links li {
-	margin: 10px;
+  margin: 10px;
 }
 
 .social-links li:hover {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .social-links a {
-	border-radius: 50%;
-	border: 2px dashed cornflowerblue;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	color: #f2b9e0;
-	font-size: 75px;
-	height: 120px;
-	width: 120px;
-	text-decoration: none;
+  border-radius: 50%;
+  border: 2px dashed cornflowerblue;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2b9e0;
+  font-size: 75px;
+  height: 120px;
+  width: 120px;
+  text-decoration: none;
 }
 
 .social-links a:hover {
-	color: rgb(135, 169, 233);
+  color: rgb(135, 169, 233);
 }
 
 footer {
-	height: 50px;
-	background-color: #efece6;
-	text-align: center;
-	padding-top: 10px;
+  height: 50px;
+  background-color: #efece6;
+  text-align: center;
+  padding-top: 10px;
 }
 
 footer .fa-heart {
-	background-color: #efece6;
-	color: rgb(217, 181, 242);
-	padding: 0 10px 0;
+  background-color: #efece6;
+  color: rgb(217, 181, 242);
+  padding: 0 10px 0;
 }
