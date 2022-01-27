@@ -99,7 +99,10 @@
   #rps,
   #calculator,
   #etch,
-  #card-game {
+  #card-game,
+  #bdazzled,
+  #cosmic,
+  #seedling {
     width: auto;
   }
 }
@@ -111,5 +114,11 @@
 
   footer {
     font-size: 12px;
+  }
+  .project-buttons {
+    font-size: 15px;
+  }
+  #bdazzled img {
+    width: 100%;
   }
 }
