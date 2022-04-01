@@ -502,6 +502,7 @@
 				<li>
 					<a
 						id="profile-link1"
+						aria-label="link to github profile"
 						href="https://github.com/Yafira"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -509,17 +510,19 @@
 					</a>
 				</li>
 				<li>
-					<a id="profile-link2" href="https://dribbble.com/y-fi"
-						><i
-							class="fab fa-dribbble"
-							target="_blank"
-							rel="noopener noreferrer"
-						></i
+					<a
+						id="profile-link2"
+						aria-label="link to dribbble profile"
+						href="https://dribbble.com/y-fi"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fab fa-dribbble"></i
 					></a>
 				</li>
 				<li>
 					<a
 						id="profile-link3"
+						aria-label="link to email"
 						href="mailto:yfr.mrtnz@gmail.com"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -529,6 +532,7 @@
 				<li>
 					<a
 						id="profile-link4"
+						aria-label="link to linkedin profile"
 						href="https://www.linkedin.com/in/yafira/"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -546,3 +550,17 @@
 
 <!-- My Script -->
 <script src="script.js"></script>
+<!-- smooth scrolling -->
+<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
+<script>
+	// patch all methods
+	seamless.polyfill()
+	// or use specific methods
+	seamless.scrollBy(window, { behavior: 'smooth', top: 200, left: 0 })
+
+	seamless.scrollIntoView(document.querySelector('#target'), {
+		behavior: 'smooth',
+		block: 'center',
+		inline: 'center',
+	})
+</script>
