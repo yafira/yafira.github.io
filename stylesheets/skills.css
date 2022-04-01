@@ -58,6 +58,7 @@
 
 #tech h4,
 #tech h5 {
+	width: -moz-fit-content;
 	width: fit-content;
 	padding: 0px;
 	margin: 0px;
@@ -112,6 +113,7 @@
 
 #tools h3,
 #tools h5 {
+	width: -moz-fit-content;
 	width: fit-content;
 	padding: 0px;
 	margin: 0px;
