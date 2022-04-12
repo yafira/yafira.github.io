@@ -180,6 +180,40 @@ span {
 	border: #000 solid 2px;
 }
 
+#notes {
+	width: 48%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
+}
+
+#notes p {
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#notes img {
+	width: 100%;
+	border: #000 solid 2px;
+}
+
+#card {
+	width: 36%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
+}
+
+#card p {
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#card img {
+	width: 100%;
+	border: #000 solid 2px;
+}
+
 #card-game {
 	width: 30%;
 	color: #000;
