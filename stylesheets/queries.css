@@ -1,124 +1,126 @@
 @media (max-width: 820px) {
-  nav a {
-    margin-left: 0;
-    margin-top: 0px;
-    font-size: 15px;
-    display: block;
-  }
+	nav a {
+		margin-left: 0;
+		margin-top: 0px;
+		font-size: 15px;
+		display: block;
+	}
 
-  .profile {
-    flex-direction: column-reverse;
-    padding: 20px;
-    padding-top: 190px;
-    margin-top: 50px;
-  }
+	.profile {
+		flex-direction: column-reverse;
+		padding: 20px;
+		padding-top: 190px;
+		margin-top: 50px;
+	}
 
-  #about img {
-    margin-top: 450px;
-    max-width: 100%;
-  }
+	#about img {
+		margin-top: 450px;
+		max-width: 100%;
+	}
 
-  .profile > div {
-    width: 100%;
-  }
+	.profile > div {
+		width: 100%;
+	}
 
-  #about h1 {
-    font-size: 14px;
-    margin-top: 70px;
-  }
+	#about h1 {
+		font-size: 14px;
+		margin-top: 70px;
+	}
 
-  #about p {
-    font-size: 13px;
-    line-height: 16px;
-    height: auto;
-    width: 150%;
-  }
+	#about p {
+		font-size: 13px;
+		line-height: 16px;
+		height: auto;
+		width: 150%;
+	}
 
-  #projects {
-    padding-top: 200px;
-  }
+	#projects {
+		padding-top: 200px;
+	}
 
-  #my-skills {
-    font-size: 15px;
-    padding: 0px;
-    margin: 20px 0;
-  }
+	#my-skills {
+		font-size: 15px;
+		padding: 0px;
+		margin: 20px 0;
+	}
 
-  .social-links {
-    margin: auto;
-    flex-direction: column;
-  }
+	.social-links {
+		margin: auto;
+		flex-direction: column;
+	}
 
-  .social-links a {
-    font-size: 50px;
-    height: 70px;
-    width: 70px;
-  }
+	.social-links a {
+		font-size: 50px;
+		height: 70px;
+		width: 70px;
+	}
 
-  #contact {
-    padding: 250px 0px 100px;
-    height: auto;
-  }
+	#contact {
+		padding: 250px 0px 100px;
+		height: auto;
+	}
 
-  #tech > ul {
-    width: 95%;
-    padding: 30px 0px 0px 0px;
-  }
+	#tech > ul {
+		width: 95%;
+		padding: 30px 0px 0px 0px;
+	}
 
-  #tools {
-    padding-top: 100px;
-    margin: auto;
-  }
+	#tools {
+		padding-top: 100px;
+		margin: auto;
+	}
 
-  #tools > ul {
-    flex-direction: column;
-  }
+	#tools > ul {
+		flex-direction: column;
+	}
 
-  #tools > ul li {
-    padding: 10px;
-    width: 90%;
-    margin: auto;
-  }
+	#tools > ul li {
+		padding: 10px;
+		width: 90%;
+		margin: auto;
+	}
 
-  #skills {
-    height: fit-content;
-    padding-top: 260px;
-  }
+	#skills {
+		height: fit-content;
+		padding-top: 260px;
+	}
 
-  button {
-    height: 48px;
-    width: 48px;
-  }
+	button {
+		height: 48px;
+		width: 48px;
+	}
 
-  #myBtn {
-    font-size: 7px;
-  }
+	#myBtn {
+		font-size: 7px;
+	}
 
-  #looping-squares,
-  #news-bits,
-  #rps,
-  #calculator,
-  #etch,
-  #card-game,
-  #bdazzled,
-  #cosmic,
-  #seedling {
-    width: auto;
-  }
+	#looping-squares,
+	#news-bits,
+	#rps,
+	#calculator,
+	#card,
+	#notes,
+	#etch,
+	#card-game,
+	#bdazzled,
+	#cosmic,
+	#seedling {
+		width: auto;
+	}
 }
 
 @media (max-width: 440px) {
-  section {
-    padding: 20px;
-  }
+	section {
+		padding: 20px;
+	}
 
-  footer {
-    font-size: 12px;
-  }
-  .project-buttons {
-    font-size: 15px;
-  }
-  #bdazzled img {
-    width: 100%;
-  }
+	footer {
+		font-size: 12px;
+	}
+	.project-buttons {
+		font-size: 15px;
+	}
+	#bdazzled img {
+		width: 100%;
+	}
 }
