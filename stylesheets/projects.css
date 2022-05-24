@@ -28,7 +28,9 @@
 
 #projects h4 {
 	background-color: #f0fae0;
+	border: solid 1px #000;
 	margin-top: 100px;
+	padding: 20px;
 }
 
 .projects-container {
@@ -305,12 +307,18 @@ span {
 #github-link,
 #glitch-link,
 #dribbble-link {
-	background-color: #f0fae0;
-	color: #000;
+	background-color: #edffd0;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #A094e1;
+	transition: all 0.3s ease 0s;
+	color: cornflowerblue;
 }
 
 #github-link:hover,
 #glitch-link:hover,
 #dribbble-link:hover {
 	color: cornflowerblue;
+	transform: translateY(-7px);
+	font-size: 25px;
 }
