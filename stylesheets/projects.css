@@ -307,11 +307,9 @@ span {
 #github-link,
 #glitch-link,
 #dribbble-link {
-	text-decoration-line: underline;
-	text-decoration-style: wavy;
-	text-decoration-color: #A094e1;
+	text-decoration: underline wavy #A094e1;
 	transition: all 0.3s ease 0s;
-	color: cornflowerblue;
+	color: #000;
 }
 
 #github-link:hover,
