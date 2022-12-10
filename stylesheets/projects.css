@@ -115,7 +115,6 @@ span {
 }
 
 #looping-squares,
-#s-dalle,
 #rps,
 #calculator {
 	width: 40%;
@@ -145,6 +144,10 @@ span {
 #etch img {
 	width: 100%;
 	border: #000 solid 2px;
+}
+
+#s-dalle {
+	width: 44%;
 }
 
 #notes {
