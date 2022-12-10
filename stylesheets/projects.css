@@ -8,22 +8,24 @@
 	opacity: 1;
 }
 
+.project-code h3,
+.project-design h3 {
+	width: max-content;
+	margin: 50px auto;
+}
+
 .project-code h3 {
 	background-color: #d5dcf7;
-	width: max-content;
 	padding: 40px;
 	border-radius: 100%;
 	align-items: center;
-	margin: 50px auto;
 }
 
 .project-design h3 {
 	background-color: rgb(227, 209, 252);
-	width: max-content;
 	padding: 30px;
 	border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
 	align-items: center;
-	margin: 50px auto;
 }
 
 #projects h4 {
@@ -97,208 +99,109 @@ span {
 	margin: 100px;
 }
 
-#looping-squares {
-	width: 40%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#looping-squares p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#looping-squares img {
-	width: 100%;
-	border: #000 solid 2px;
-}
-
-#s-dalle {
-	width: 40%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#s-dalle p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#s-dalle img {
-	width: 100%;
-	border: #000 solid 2px;
-}
-
+/* Programming projects */
+#looping-squares,
+#s-dalle,
+#rps,
+#calculator,
+#notes,
+#biz-card,
+#card-game,
+#news-bits,
 #etch {
-	width: 50%;
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
 }
 
+#looping-squares,
+#s-dalle,
+#rps,
+#calculator {
+	width: 40%;
+}
+
+#looping-squares p,
+#s-dalle p,
+#rps p,
+#calculator p,
+#notes p,
+#biz-card p,
+#card-game p,
+#news-bits p,
 #etch p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
+#looping-squares img,
+#s-dalle img,
+#rps img,
+#calculator img,
+#notes img,
+#biz-card img,
+#card-game img,
+#news-bits img,
 #etch img {
 	width: 100%;
 	border: #000 solid 2px;
 }
 
-#calculator {
-	width: 40%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#calculator p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#calculator img {
-	width: 100%;
-	border: #000 solid 2px;
-}
-
-#rps {
-	width: 38%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#rps p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#rps img {
-	width: 100%;
-	border: #000 solid 2px;
-}
-
 #notes {
-	width: 48%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#notes p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#notes img {
-	width: 100%;
-	border: #000 solid 2px;
+	width: 46%;
 }
 
 #biz-card {
 	width: 36%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#biz-card p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#biz-card img {
-	width: 100%;
-	border: #000 solid 2px;
 }
 
 #card-game {
 	width: 30%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#card-game p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#card-game img {
-	width: 100%;
-	border: #000 solid 2px;
 }
 
 #news-bits {
 	width: 39%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
 }
 
-#news-bits p {
-	margin-bottom: 0px;
-	font-weight: bold;
+#etch {
+	width: 50%;
 }
 
-#news-bits img {
-	width: 100%;
-	border: #000 solid 2px;
-}
-
-#bdazzled {
-	width: 100%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#bdazzled p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#bdazzled img {
-	border: #000 solid 2px;
-}
-
-#cosmic {
-	width: 30%;
-	color: #000;
-	text-decoration: none;
-	margin: 40px;
-}
-
-#cosmic p {
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-#cosmic img {
-	width: 100%;
-	border-radius: 15px;
-}
-
+/* UX Design projects */
+#bdazzled,
+#cosmic,
 #seedling {
-	width: 30%;
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
 }
 
+#bdazzled p,
+#cosmic p,
 #seedling p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
+#cosmic img,
+#seedling img,
+#bdazzled img {
+	border: #000 solid 2px;
+}
+
+#cosmic img,
 #seedling img {
 	width: 100%;
 	border-radius: 15px;
-	border: #000 solid 2px;
+}
+
+#bdazzled {
+	width: 100%;
+}
+
+#cosmic,
+#seedling {
+	width: 30%;
 }
 
 .project-tile {
