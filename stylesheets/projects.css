@@ -199,19 +199,19 @@ span {
 	border: #000 solid 2px;
 }
 
-#card {
+#biz-card {
 	width: 36%;
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
 }
 
-#card p {
+#biz-card p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
-#card img {
+#biz-card img {
 	width: 100%;
 	border: #000 solid 2px;
 }
@@ -234,7 +234,7 @@ span {
 }
 
 #news-bits {
-	width: 40%;
+	width: 39%;
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
