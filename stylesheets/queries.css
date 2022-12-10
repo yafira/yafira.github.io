@@ -94,14 +94,15 @@
 		font-size: 7px;
 	}
 
+	#s-dalle,
 	#looping-squares,
-	#news-bits,
 	#rps,
 	#calculator,
-	#card,
+	#biz-card,
 	#notes,
-	#etch,
 	#card-game,
+	#news-bits,
+	#etch,
 	#bdazzled,
 	#cosmic,
 	#seedling {
