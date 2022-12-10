@@ -114,19 +114,19 @@ span {
 	border: #000 solid 2px;
 }
 
-#news-bits {
+#s-dalle {
 	width: 40%;
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
 }
 
-#news-bits p {
+#s-dalle p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
-#news-bits img {
+#s-dalle img {
 	width: 100%;
 	border: #000 solid 2px;
 }
@@ -229,6 +229,23 @@ span {
 }
 
 #card-game img {
+	width: 100%;
+	border: #000 solid 2px;
+}
+
+#news-bits {
+	width: 40%;
+	color: #000;
+	text-decoration: none;
+	margin: 40px;
+}
+
+#news-bits p {
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#news-bits img {
 	width: 100%;
 	border: #000 solid 2px;
 }
