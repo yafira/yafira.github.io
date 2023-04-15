@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	cursor: default;
+}
+
+body {
+	background-color: #efece6;
+	font-size: 20px;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	margin: 0;
+}
+
+nav {
+	background-color: #efece6;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 12px;
+	font-size: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	border-bottom: #000 solid 0.5px;
+}
+
+nav a {
+	color: #000;
+	margin-left: 30px;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+nav a:hover {
+	color: #a683d8;
+	border-bottom: 2px solid cornflowerblue;
+}
+
+nav img {
+	margin: 0 10px;
+}
