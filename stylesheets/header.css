@@ -39,7 +39,6 @@ nav a {
 
 nav a:hover {
 	color: #a683d8;
-	border-bottom: 2px solid cornflowerblue;
 }
 
 nav img {
@@ -85,7 +84,7 @@ nav img {
 
 .menu__btn {
 	position: fixed;
-	top: 20px;
+	top: 60px;
 	right: 20px;
 	width: 26px;
 	height: 26px;
@@ -100,31 +99,31 @@ nav img {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #616161;
+	background-color: #000000;
 	transition-duration: 0.25s;
 }
 
 .menu__btn > span::before {
 	content: '';
-	top: -8px;
+	top: -10px;
 }
 
 .menu__btn > span::after {
 	content: '';
-	top: 8px;
+	top: 10px;
 }
 
 .menu__box {
 	display: block;
 	position: fixed;
 	top: 0;
-	right: -300px;
-	width: 300px;
-	height: 100%;
+	right: -230px;
+	width: 230px;
+	height: 35%;
 	margin: 0;
-	padding: 80px 20px;
+	padding: 20px 0px;
 	list-style: none;
-	background-color: #eceff1;
+	background-color: #ecf6dd;
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 	transition-duration: 0.25s;
 }
@@ -136,14 +135,15 @@ nav img {
 .menu__item {
 	display: block;
 	padding: 12px 24px;
-	color: #333;
-	font-size: 20px;
+	color: #000000;
+	font-size: 24px;
 	font-weight: 600;
 	text-decoration: none;
-	text-align: right;
+	text-align: center;
 	transition-duration: 0.25s;
 }
 
 .menu__item:hover {
-	background-color: #cfd8dc;
+	background-color: #efe7fa;
+	border-bottom: 2px solid cornflowerblue;
 }
