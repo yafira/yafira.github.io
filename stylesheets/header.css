@@ -30,11 +30,9 @@ nav {
 
 nav a {
 	color: #000;
-	margin-left: 30px;
 	text-decoration: none;
 	padding: 10px;
 	text-align: center;
-	margin-top: 50px;
 }
 
 nav a:hover {
@@ -84,7 +82,7 @@ nav img {
 
 .menu__btn {
 	position: fixed;
-	top: 60px;
+	top: 40px;
 	right: 20px;
 	width: 26px;
 	height: 26px;
@@ -119,9 +117,8 @@ nav img {
 	top: 0;
 	right: -230px;
 	width: 230px;
-	height: 35%;
 	margin: 0;
-	padding: 20px 0px;
+	padding: 78px 0px 0;
 	list-style: none;
 	background-color: #ecf6dd;
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
