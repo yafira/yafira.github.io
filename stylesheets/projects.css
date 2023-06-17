@@ -100,48 +100,41 @@ span {
 }
 
 /* Programming projects */
-#looping-squares,
 #s-dalle,
 #rps,
 #calculator,
 #notes,
 #biz-card,
 #card-game,
-#news-bits,
-#etch {
+#news-bits {
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
 }
 
-#looping-squares,
 #rps,
 #calculator {
 	width: 40%;
 }
 
-#looping-squares p,
 #s-dalle p,
 #rps p,
 #calculator p,
 #notes p,
 #biz-card p,
 #card-game p,
-#news-bits p,
-#etch p {
+#news-bits p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
-#looping-squares img,
 #s-dalle img,
 #rps img,
 #calculator img,
 #notes img,
 #biz-card img,
 #card-game img,
-#news-bits img,
-#etch img {
+#news-bits img {
 	width: 100%;
 	border: #000 solid 2px;
 }
@@ -164,10 +157,6 @@ span {
 
 #news-bits {
 	width: 39%;
-}
-
-#etch {
-	width: 50%;
 }
 
 /* UX Design projects */
