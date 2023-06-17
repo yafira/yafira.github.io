@@ -100,6 +100,7 @@ span {
 }
 
 /* Programming projects */
+#cute-tech,
 #s-dalle,
 #rps,
 #calculator,
@@ -112,11 +113,7 @@ span {
 	margin: 40px;
 }
 
-#rps,
-#calculator {
-	width: 40%;
-}
-
+#cute-tech p,
 #s-dalle p,
 #rps p,
 #calculator p,
@@ -128,6 +125,7 @@ span {
 	font-weight: bold;
 }
 
+#cute-tech img,
 #s-dalle img,
 #rps img,
 #calculator img,
@@ -139,12 +137,24 @@ span {
 	border: #000 solid 2px;
 }
 
+#cute-tech {
+	width: 40%;
+}
+
 #s-dalle {
-	width: 44%;
+	width: 40%;
+}
+
+#calculator {
+	width: 36%;
+}
+
+#rps {
+	width: 32%;
 }
 
 #notes {
-	width: 46%;
+	width: 43%;
 }
 
 #biz-card {
